@@ -1,5 +1,4 @@
-const incrementQty = (qty) => qty + 1;
-const decrementQty = (qty) => qty - 1;
+const { incrementQty, decrementQty } = require("./function.js");
 
 const incrButton = document.querySelector('#incr');
 const decrButton = document.querySelector('#decr');
